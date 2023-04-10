@@ -1,0 +1,66 @@
+Package: dev.ploosh.batterypercent
+Architecture: iphoneos-arm
+Version: 1.0.0
+Maintainer: Ploosh <me@ploosh.dev>
+Installed-Size: 163
+Depends: mobilesubstrate
+Filename: ./pool/dev.ploosh.batterypercent_1.0.0_iphoneos-arm.deb
+Size: 4144
+MD5sum: 57ba62f8cf7155a3e500c94df22cd0a5
+SHA1: 9805218c04e149e6d1a0b9c6a2da2e847b04c980
+SHA256: 5d5ab4afca962dbe09807b2eeb89633d184b2b4428f34562df231b2734f55ecc
+SHA512: a7eaff42133cf854193f718f6e1c62163a7a6771d571fb073661c0b9d861f34aa079b67a49e14e1a57223974914a8ee782f313d0de0983a9b3e4ee7e97d18296
+Description: Enables the battery percentage in the icon that Apple hides from you.
+Author: Ploosh
+Name: BatteryPercent
+
+Package: dev.ploosh.batterypercent
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: Ploosh <me@ploosh.dev>
+Installed-Size: 163
+Depends: mobilesubstrate
+Filename: ./pool/dev.ploosh.batterypercent_1.0.0_iphoneos-arm64.deb
+Size: 4184
+MD5sum: 85dab51caaff25a8423d43bc30729130
+SHA1: 0756cfc2a54a388a1d3e45b8e2d76c99cb4fd383
+SHA256: 5693905cf0e99a6944032d1dd1a9ea6f25339deda7365a246a9f5d19c3139bd5
+SHA512: 478de6aa6f3ca54207c203ab13c664cfe7d0cf9fb44608edefa84b6ddca2398a3f8106852747df0422e03bc82cdc28781eaa744c68f12eb03ade08b53625d24b
+Description: Enables the battery percentage in the icon that Apple hides from you.
+Author: Ploosh
+Name: BatteryPercent
+
+Package: ploosh.debstealer
+Architecture: iphoneos-arm
+Version: 1.0.3
+Section: Utilities
+Maintainer: Ploosh <me@ploosh.dev>
+Installed-Size: 8
+Depends: firmware (>= 11.0)
+Filename: ./pool/ploosh.debstealer_1.0.3_iphoneos-arm.deb
+Size: 1088
+MD5sum: fc3ebe490fe81fd834513c76f1e4d56d
+SHA1: 5d2450f0a39fc92bd29000aea5c138746b10f972
+SHA256: d265fb3ef5bf0c2f4996b11d01dc110f362be1b6b5cd2308c71be9cefbcd15a4
+SHA512: aa88258bf0e68965124430c19f219076f485e738c1cfdd60a940f02009b04ebda531021248761a85e8801b1be423528ec8910c7c87d333ec6bd6a0f999cebe06
+Description: Downloads installed packages. Packages are saved at /var/mobile/debs
+Name: DebStealer
+Author: Ploosh
+
+Package: ploosh.debstealer
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Section: Utilities
+Maintainer: Ploosh <me@ploosh.dev>
+Installed-Size: 8
+Depends: firmware (>= 11.0)
+Filename: ./pool/ploosh.debstealer_1.0.3_iphoneos-arm64.deb
+Size: 1068
+MD5sum: ba173fde837d10147a9466b25b2a8e5a
+SHA1: a88ae2d3efcbc65aebfb466f95e76186171af396
+SHA256: a8fda5cfc5fd21b61a8bb4d2843e76151152c690e0ff13f0c6e3b67aed415682
+SHA512: 494b993a0c22d680e126f2bde2bcecf0016b3d494a1252b5c5f012f2b588436c8251f7b38c512f0c0603aba1dec337a84af9effd7875c02fc2ac94d5437d9a61
+Description: steal debs
+Name: DebStealer
+Author: Ploosh
+
