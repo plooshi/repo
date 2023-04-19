@@ -32,34 +32,34 @@ Name: BatteryPercent
 
 Package: ploosh.debstealer
 Architecture: iphoneos-arm
-Version: 1.0.3
+Version: 1.0.3-1
 Section: Utilities
 Maintainer: Ploosh <me@ploosh.dev>
 Installed-Size: 8
 Depends: firmware (>= 11.0)
-Filename: ./pool/ploosh.debstealer_1.0.3_iphoneos-arm.deb
-Size: 1088
-MD5sum: fc3ebe490fe81fd834513c76f1e4d56d
-SHA1: 5d2450f0a39fc92bd29000aea5c138746b10f972
-SHA256: d265fb3ef5bf0c2f4996b11d01dc110f362be1b6b5cd2308c71be9cefbcd15a4
-SHA512: aa88258bf0e68965124430c19f219076f485e738c1cfdd60a940f02009b04ebda531021248761a85e8801b1be423528ec8910c7c87d333ec6bd6a0f999cebe06
+Filename: ./pool/ploosh.debstealer_1.0.3-1_iphoneos-arm.deb
+Size: 1100
+MD5sum: ad944ecdccf16ed310eea3ae410829c5
+SHA1: 41bdf7b8d85f223bf819470bb7fe57d2915e8f8d
+SHA256: de3937ec25e95a3f4bbcd359a151e3429794885d4bf2ff4352af23f0005d4d86
+SHA512: cadae924d01a2545534f38228aab6429ba57ed1e4190eaafe65868b70f532b73f73d4614c59e19ecdeb6774e65dc05a3b041206afd50fe93092f291ceb2bec73
 Description: Downloads installed packages. Packages are saved at /var/mobile/debs
 Name: DebStealer
 Author: Ploosh
 
 Package: ploosh.debstealer
 Architecture: iphoneos-arm64
-Version: 1.0.3
+Version: 1.0.3-1
 Section: Utilities
 Maintainer: Ploosh <me@ploosh.dev>
 Installed-Size: 8
 Depends: firmware (>= 11.0)
-Filename: ./pool/ploosh.debstealer_1.0.3_iphoneos-arm64.deb
-Size: 1068
-MD5sum: ba173fde837d10147a9466b25b2a8e5a
-SHA1: a88ae2d3efcbc65aebfb466f95e76186171af396
-SHA256: a8fda5cfc5fd21b61a8bb4d2843e76151152c690e0ff13f0c6e3b67aed415682
-SHA512: 494b993a0c22d680e126f2bde2bcecf0016b3d494a1252b5c5f012f2b588436c8251f7b38c512f0c0603aba1dec337a84af9effd7875c02fc2ac94d5437d9a61
+Filename: ./pool/ploosh.debstealer_1.0.3-1_iphoneos-arm64.deb
+Size: 1072
+MD5sum: 688cd1ca0917afa17d153fa7785a402c
+SHA1: 011e2fddd786c16366fb69a618f2e939b9c2efad
+SHA256: 175faeb46956d09533b185605488297695676824467caf01fa5c78e3e3abe56d
+SHA512: 77d76cbe915e818c01b2b2fa238939d528c35da75812ec44676d91b8d359d6785889a2ce56836d9dafa5261ecfdb32d55812d4b2d68919ef4c9bdd7052c2f507
 Description: steal debs
 Name: DebStealer
 Author: Ploosh
