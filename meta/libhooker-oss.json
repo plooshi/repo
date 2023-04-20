@@ -1,0 +1,53 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.3",
+	"headerImage": "https://repo.ploosh.dev/assets/libhooker-oss.png",
+	"tintColor": "#2c17ff",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"tabname": "Details",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "libhooker, open source edition.",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionHeaderView",
+					"title": "Information"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 16, 2023",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				}
+			]
+		},
+		{
+			"class": "DepictionStackView",
+			"tabname": "Changelog",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "1.0.0",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Initial build of libhooker-oss (based on coolstar/libhooker commit 4f85a68)",
+					"useSpacing": true
+				}
+			]
+		}
+	]
+}
