@@ -1,7 +1,7 @@
 {
 	"class": "DepictionTabView",
 	"minVersion": "0.3",
-	"headerImage": "https://repo.ploosh.dev/assets/libhooker-oss.png",
+	"headerImage": "https://repo.ploosh.dev/assets/libhooker-oss-cover.png",
 	"tintColor": "#2c17ff",
 	"tabs": [
 		{
