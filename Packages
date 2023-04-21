@@ -36,47 +36,64 @@ Name: BatteryPercent
 Icon: https://repo.ploosh.dev/assets/batterypercent.png
 SileoDepiction: https://repo.ploosh.dev/meta/batterypercent.json
 
-Package: org.coolstar.libhooker-oss
+Package: dev.ploosh.libhooker-oss
 Architecture: iphoneos-arm
-Version: 1.0.0
+Version: 1.1.0
 Section: System
 Maintainer: Ploosh <me@ploosh.dev>
 Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0), org.coolstar.libhooker (= 1.7.0)
 Depends: firmware (>= 11.0), cy+cpu.arm64, org.coolstar.safemode
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode, org.coolstar.libhooker
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode, org.coolstar.libhooker
-Filename: ./pool/org.coolstar.libhooker-oss_1.0.0_iphoneos-arm.deb
-Size: 50856
-MD5sum: eb6dc713c2ac700db0b4015bcc5a1d6d
-SHA1: a4e3302ac421b293104d5758b6ada576bc4a8882
-SHA256: 31a71826f2b6e5252076816e12f24c4ea28ccf7544cd9bedba49a020e33f6f4b
-SHA512: 80558a82c9702155f59f109207f4f38bfe0d6a8eb25b46000bc7bedf108327653f933ab65d5e41bcd363375b0f66227b0730ca26f5db1a02dce1a71fb4678698
+Filename: ./pool/dev.ploosh.libhooker-oss_1.1.0_iphoneos-arm.deb
+Size: 50800
+MD5sum: 54713230a3aa38ebe114300b807ebbea
+SHA1: 7f60b393ae99eb6b50580f38eefdb6bf3fe81e99
+SHA256: c08a92a41ceae0dd0ee24606d885022663c4c2ee8b8403c2cd9216909a58da9f
+SHA512: 5463727ba93711c188d3ffb03e4bafde48e13b1899129f826252e0541959233934a80380a463fc8901f6cecdd0a4ba814a5165e067a371426d180f1b7db60b8d
 Description: libhooker, open source edition.
 Name: libhooker-oss
 Author: Ploosh <me@ploosh.dev>, CoolStar <coolstarorganization@gmail.com>
 Icon: https://repo.ploosh.dev/assets/libhooker-oss.png
 SileoDepiction: https://repo.ploosh.dev/meta/libhooker-oss.json
 
-Package: org.coolstar.libhooker-oss
+Package: dev.ploosh.libhooker-oss
 Architecture: iphoneos-arm64
-Version: 1.0.0
+Version: 1.1.0
 Section: System
 Maintainer: Ploosh <me@ploosh.dev>
 Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0), org.coolstar.libhooker (= 1.7.0)
 Depends: firmware (>= 11.0), cy+cpu.arm64, org.coolstar.safemode
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode, org.coolstar.libhooker
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode, org.coolstar.libhooker
-Filename: ./pool/org.coolstar.libhooker-oss_1.0.0_iphoneos-arm64.deb
-Size: 101468
-MD5sum: cf17eb5b5b82b3ae8307ecb671547679
-SHA1: 2bc2a6ab38fb791705faf6e4f8aa5d6c1923eea9
-SHA256: cb0203052f9f3ca2b3b811ba68c5adab814c4306133ced13fad11ca1de94d326
-SHA512: 85d8877ddbdbcf9f989e70a36488956ae9cceec6bf86ea1ac8d5aff6bdfd999d0b25b475eba3f254aa6ebab64ff28842d6081b38e184b218a9f3f2e4af52bec1
+Filename: ./pool/dev.ploosh.libhooker-oss_1.1.0_iphoneos-arm64.deb
+Size: 50980
+MD5sum: 4778659fcf1eae65fe7e8458f5f4352c
+SHA1: ab59a924326d8a9c2e0bb9e2cf10e86c731d0521
+SHA256: 8950161adf385e85f42707ce9870cc16553abe5612725bcc4571de09a0783822
+SHA512: e802fe3dc529c092d70dc960a0e8d0ab99c1d625241c7f8396181a83865ddfc51211d6912cc13783d058130eedc449fbe333d1763049a1d2ab4ae0a9a933a054
 Description: libhooker, open source edition.
 Name: libhooker-oss
 Author: Ploosh <me@ploosh.dev>, CoolStar <coolstarorganization@gmail.com>
 Icon: https://repo.ploosh.dev/assets/libhooker-oss.png
 SileoDepiction: https://repo.ploosh.dev/meta/libhooker-oss.json
+
+Package: org.coolstar.safemode
+Architecture: iphoneos-arm
+Version: 1.1.4
+Section: System
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 11.0), cy+cpu.arm64
+Replaces: org.coolstar.libhooker (<<1.2.5)
+Filename: ./pool/org.coolstar.safemode_1.1.4_iphoneos-arm.deb
+Size: 558304
+MD5sum: 43526b865445d84251d78f99a6325ab5
+SHA1: fd03023d7559d36435f4d64bad92504cc9d46297
+SHA256: 44368da007c8b46bd7d69c48f0724b36d423758e807215e67f12f85a8ea4966e
+SHA512: 00a05c0fe26260c7385e99aacf9bed2f8b7734f1b04a863d1aaa656d4e838ac39350560358beaa1eef3f72f0c1238d228f0ed8f53af181c6b1a00ffae49b7bcf
+Description: Safe Mode app for libhooker
+Name: Safe Mode (libhooker)
+Author: CoolStar <coolstarorganization@gmail.com>
 
 Package: org.coolstar.safemode
 Architecture: iphoneos-arm64
