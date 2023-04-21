@@ -40,48 +40,52 @@ Depends: firmware (>= 11.0), cy+cpu.arm64, org.coolstar.safemode
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode, org.coolstar.libhooker
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode, org.coolstar.libhooker
 Filename: ./pool/org.coolstar.libhooker-oss_1.0.0_iphoneos-arm.deb
-Size: 50952
-MD5sum: ba3add0b6ffc1c73c3ddb635cc4ded95
-SHA1: ccf1cc84b55fefa4253824541a9bb513a420e084
-SHA256: 5d0d16347fd252d27e75892adf83a7460bfe342f4b987c871704e6274e505b94
-SHA512: 791030057cd44736405feb120ea3fa7401bf1aee36534600fd24433b7560065f9af87a5bcb7c20165f1867ac4be4d854b857cc3569f5a6b3b1bd500ee51e4ac4
+Size: 51004
+MD5sum: aedb12c55f4ff9f346bdf1b6f897370d
+SHA1: 7456a42f23c630e4ae16428feb079ff1810e8c0c
+SHA256: 973a8c08ac30e2778d65b8a2d748f582221732a666c6f4a0af454a648907a317
+SHA512: ba0fe534b02e0f51c68825c28b98fe278f05bf34b283efabc0ec774fad86c2f6128dad2e7a0cb071dd411ca40177a29fced92451cc7b1c5a67d2740a94608998
 Description: libhooker, open source edition.
 Name: libhooker-oss
-Author: CoolStar <coolstarorganization@gmail.com>
+Author: Ploosh <me@ploosh.dev>, CoolStar <coolstarorganization@gmail.com>
 Icon: https://repo.ploosh.dev/assets/libhooker-oss.png
 SileoDepiction: https://repo.ploosh.dev/meta/libhooker-oss.json
 
 Package: ploosh.debstealer
 Architecture: iphoneos-arm
-Version: 1.0.3-1
+Version: 1.0.3-2
 Section: Utilities
 Maintainer: Ploosh <me@ploosh.dev>
 Installed-Size: 8
 Depends: firmware (>= 11.0)
-Filename: ./pool/ploosh.debstealer_1.0.3-1_iphoneos-arm.deb
-Size: 1100
-MD5sum: ad944ecdccf16ed310eea3ae410829c5
-SHA1: 41bdf7b8d85f223bf819470bb7fe57d2915e8f8d
-SHA256: de3937ec25e95a3f4bbcd359a151e3429794885d4bf2ff4352af23f0005d4d86
-SHA512: cadae924d01a2545534f38228aab6429ba57ed1e4190eaafe65868b70f532b73f73d4614c59e19ecdeb6774e65dc05a3b041206afd50fe93092f291ceb2bec73
+Filename: ./pool/ploosh.debstealer_1.0.3-2_iphoneos-arm.deb
+Size: 1148
+MD5sum: b9caa74a97ef90dc5cc355546fab0c5d
+SHA1: 13dcfe7152a36aaf4649c3eb3207d2aae1af177e
+SHA256: 14d9c13364649d156f2d4bee226bdefef1e79f6fb06844b6633bbaacd817f885
+SHA512: d9615a41db09c3cd404846c319b7b45e7bc573b7ddf95f29c17f43da83514793f84f7622a72abb6e15363258ddc347286acca9a14df8948e71657eb68805a868
 Description: Downloads installed packages. Packages are saved at /var/mobile/debs
 Name: DebStealer
+Icon: https://repo.ploosh.dev/assets/debstealer.png
+SileoDepiction: https://repo.ploosh.dev/meta/debstealer.json
 Author: Ploosh
 
 Package: ploosh.debstealer
 Architecture: iphoneos-arm64
-Version: 1.0.3-1
+Version: 1.0.3-2
 Section: Utilities
 Maintainer: Ploosh <me@ploosh.dev>
 Installed-Size: 8
 Depends: firmware (>= 11.0)
-Filename: ./pool/ploosh.debstealer_1.0.3-1_iphoneos-arm64.deb
-Size: 1072
-MD5sum: 688cd1ca0917afa17d153fa7785a402c
-SHA1: 011e2fddd786c16366fb69a618f2e939b9c2efad
-SHA256: 175faeb46956d09533b185605488297695676824467caf01fa5c78e3e3abe56d
-SHA512: 77d76cbe915e818c01b2b2fa238939d528c35da75812ec44676d91b8d359d6785889a2ce56836d9dafa5261ecfdb32d55812d4b2d68919ef4c9bdd7052c2f507
+Filename: ./pool/ploosh.debstealer_1.0.3-2_iphoneos-arm64.deb
+Size: 1124
+MD5sum: a84ae242e0914b5635dfc2a44137f30f
+SHA1: f73f6cad0ef94fe416b9a689f83664996b508429
+SHA256: 17ca5912bcb01a9eeb0e2e21876a81adea5b00722986a89ddaade094180ae6a8
+SHA512: a84c41ca2c868f6b01c500d00b76f25d15b4c4d22d2a62a13b37549285e20ea7d1ca27178a0919ddcecfa8f74d853769bb91d707de09ac9b9623b54e60975ab4
 Description: steal debs
 Name: DebStealer
+Icon: https://repo.ploosh.dev/assets/debstealer.png
+SileoDepiction: https://repo.ploosh.dev/meta/debstealer.json
 Author: Ploosh
 

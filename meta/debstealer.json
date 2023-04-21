@@ -1,0 +1,86 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.3",
+	"headerImage": "https://repo.ploosh.dev/assets/debstealer-cover.png",
+	"tintColor": "#f2a399",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"tabname": "Details",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Downloads installed packages. Packages are saved at /var/mobile/debs",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionHeaderView",
+					"title": "Information"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 19, 2023",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				}
+			]
+		},
+		{
+			"class": "DepictionStackView",
+			"tabname": "Changelog",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "1.3.0",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Move debstealer into /var and use symlinks",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "1.2.0",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Fix fork bomb with other dpkg replacers",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "1.1.0",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Add rootless support",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "1.0.0",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Initial release",
+					"useSpacing": true
+				}
+			]
+		}
+	]
+}
