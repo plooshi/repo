@@ -67,11 +67,11 @@ Depends: firmware (>= 11.0), cy+cpu.arm64, org.coolstar.safemode
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode, org.coolstar.libhooker
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode, org.coolstar.libhooker
 Filename: ./pool/org.coolstar.libhooker-oss_1.0.0_iphoneos-arm64.deb
-Size: 50896
-MD5sum: e4b637c3c1ae44c7e69ca82b9d05ac26
-SHA1: 8594722ab6c8e3533efa19397571e5f7946f435b
-SHA256: a330832bb9470992353c816ca0db6ca9a87dcdf33756922a33233ccfe1c3f7cb
-SHA512: 06669459bc24e6defce6e2117733fd498e3744421d12bd53f5720ffe386c4659c1f5cebf566cc9c8d3a092e3f2bddfa87db736346c9185880fb0871d420d2454
+Size: 101468
+MD5sum: cf17eb5b5b82b3ae8307ecb671547679
+SHA1: 2bc2a6ab38fb791705faf6e4f8aa5d6c1923eea9
+SHA256: cb0203052f9f3ca2b3b811ba68c5adab814c4306133ced13fad11ca1de94d326
+SHA512: 85d8877ddbdbcf9f989e70a36488956ae9cceec6bf86ea1ac8d5aff6bdfd999d0b25b475eba3f254aa6ebab64ff28842d6081b38e184b218a9f3f2e4af52bec1
 Description: libhooker, open source edition.
 Name: libhooker-oss
 Author: Ploosh <me@ploosh.dev>, CoolStar <coolstarorganization@gmail.com>
