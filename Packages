@@ -59,17 +59,17 @@ SileoDepiction: https://repo.ploosh.dev/meta/libhooker-oss.json
 
 Package: ploosh.debstealer
 Architecture: iphoneos-arm
-Version: 1.0.3-2
+Version: 1.0.4
 Section: Utilities
 Maintainer: Ploosh <me@ploosh.dev>
 Installed-Size: 8
 Depends: firmware (>= 11.0)
-Filename: ./pool/ploosh.debstealer_1.0.3-2_iphoneos-arm.deb
-Size: 1148
-MD5sum: b9caa74a97ef90dc5cc355546fab0c5d
-SHA1: 13dcfe7152a36aaf4649c3eb3207d2aae1af177e
-SHA256: 14d9c13364649d156f2d4bee226bdefef1e79f6fb06844b6633bbaacd817f885
-SHA512: d9615a41db09c3cd404846c319b7b45e7bc573b7ddf95f29c17f43da83514793f84f7622a72abb6e15363258ddc347286acca9a14df8948e71657eb68805a868
+Filename: ./pool/ploosh.debstealer_1.0.4_iphoneos-arm.deb
+Size: 1140
+MD5sum: 588b0f252f1d2a5016a2b0f22c1d1e3c
+SHA1: a2eb21a0441809b2a1966e2278667fefa657c51c
+SHA256: 73d596df41c16609c611bbbd67664f9b04ac8136043bf0b3e0024e4b45f75803
+SHA512: 282c20aa3b6a823201158bad7fcf29908f8d64e0e82dee370f2bbda39a428f0c8c57951432cb3fe778dfe915c8765c29fbfbb9cf493a58d16f398db4a66aa4b5
 Description: Downloads installed packages. Packages are saved at /var/mobile/debs
 Name: DebStealer
 Icon: https://repo.ploosh.dev/assets/debstealer.png
@@ -78,17 +78,17 @@ Author: Ploosh
 
 Package: ploosh.debstealer
 Architecture: iphoneos-arm64
-Version: 1.0.3-2
+Version: 1.0.4
 Section: Utilities
 Maintainer: Ploosh <me@ploosh.dev>
 Installed-Size: 8
 Depends: firmware (>= 11.0)
-Filename: ./pool/ploosh.debstealer_1.0.3-2_iphoneos-arm64.deb
+Filename: ./pool/ploosh.debstealer_1.0.4_iphoneos-arm64.deb
 Size: 1124
-MD5sum: a84ae242e0914b5635dfc2a44137f30f
-SHA1: f73f6cad0ef94fe416b9a689f83664996b508429
-SHA256: 17ca5912bcb01a9eeb0e2e21876a81adea5b00722986a89ddaade094180ae6a8
-SHA512: a84c41ca2c868f6b01c500d00b76f25d15b4c4d22d2a62a13b37549285e20ea7d1ca27178a0919ddcecfa8f74d853769bb91d707de09ac9b9623b54e60975ab4
+MD5sum: f5a61a0313fcacbc7b161cd5ad90e6c2
+SHA1: 51b764b281efbe9ab429b29b252b65bb5216d7b4
+SHA256: eac4bbad7277d7d8b40e6ced033dee81ffa1a4c953aed03523b9e337259b61e9
+SHA512: 866fbc309cfcb89cca619c15f5fd2dd7444560c96a113124240fd046d620fdacfe0e180ef2153030a68dcc733e3298fd532d09b3e0b32d27ae6d163b5db9f2c0
 Description: steal debs
 Name: DebStealer
 Icon: https://repo.ploosh.dev/assets/debstealer.png
