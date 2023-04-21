@@ -1,15 +1,15 @@
 Package: dev.ploosh.batterypercent
 Architecture: iphoneos-arm
-Version: 1.0.0-1
+Version: 1.0.0-2
 Maintainer: Ploosh <me@ploosh.dev>
 Installed-Size: 325
 Depends: mobilesubstrate
-Filename: ./pool/dev.ploosh.batterypercent_1.0.0-1_iphoneos-arm.deb
-Size: 4436
-MD5sum: 7a6f7b442ea2de5e24372ecf470ce783
-SHA1: a2c49cb6bf18971724ba6ba6085cd73fdc1bf244
-SHA256: 3ab68776529206d8e24edfbfcf0f483ab1b71e5c956dbd8423c561ff5ecffa24
-SHA512: 96d0301adcad53610ac9a8875922ea48009ae3eb94dd26a73066c7621501aa869632922bc496a9750871b685d05ad35a1b46f0541ec2ab58fa5129a427a80431
+Filename: ./pool/dev.ploosh.batterypercent_1.0.0-2_iphoneos-arm.deb
+Size: 4264
+MD5sum: 5932cf1db521c2e210d9534530667df9
+SHA1: ded6c73e7bc4e10022ea7091b264207ceaee933d
+SHA256: 204f0314de6c7f17746fe3fa9c82605169da3dd6678503e204fee7e631b014d8
+SHA512: a42027f0e7c541f66d25a8bdbf62284cb34acea0643ff175ff24e1df245c4785c0c53d6c0fe18817402066b3f315e66a6d9aae2b8659929c01d49cef770f230f
 Description: Enables the battery percentage in the icon that Apple hides from you.
 Id: dev.ploosh.batterypercent
 Author: Ploosh
@@ -19,16 +19,16 @@ SileoDepiction: https://repo.ploosh.dev/meta/batterypercent.json
 
 Package: dev.ploosh.batterypercent
 Architecture: iphoneos-arm64
-Version: 1.0.0-1
+Version: 1.0.0-2
 Maintainer: Ploosh <me@ploosh.dev>
 Installed-Size: 325
 Depends: mobilesubstrate
-Filename: ./pool/dev.ploosh.batterypercent_1.0.0-1_iphoneos-arm64.deb
-Size: 4436
-MD5sum: 57c3d28111af5847edacef8799972b96
-SHA1: 0a52dea7cf95d8b1f08b4bbf2012779944295297
-SHA256: 289b00e73ce0214ebcff6332010e95db50536ad999add2edd4a8c6ca118e5f0f
-SHA512: abcf89bf9689530185ebe1af16c16a99fb4cc633653834de9dcbeb1cd9a336cde339e319b81d201528aef848177a5340d3b69dd2d2d02a40e81df8ec5aef749f
+Filename: ./pool/dev.ploosh.batterypercent_1.0.0-2_iphoneos-arm64.deb
+Size: 4300
+MD5sum: 4cd0bbb1f239d377b6399669a2504c01
+SHA1: 3f59ab5a79a99491bfc9bab593e12e651d3d77dd
+SHA256: c3d093f5470254282196eceaca86fc5031b9cbe729e7c6663f2638dea7c0a98e
+SHA512: 90b0e9bda424f7480361d3123fbabaa34150ddc9bcbebb95242b88d822e13557f6add29a30e219f67ad4c4afed498d1ed21835164853a4718df2c251b8c9b128
 Description: Enables the battery percentage in the icon that Apple hides from you.
 Id: dev.ploosh.batterypercent
 Author: Ploosh
