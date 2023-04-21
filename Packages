@@ -78,6 +78,23 @@ Author: Ploosh <me@ploosh.dev>, CoolStar <coolstarorganization@gmail.com>
 Icon: https://repo.ploosh.dev/assets/libhooker-oss.png
 SileoDepiction: https://repo.ploosh.dev/meta/libhooker-oss.json
 
+Package: org.coolstar.safemode
+Architecture: iphoneos-arm64
+Version: 1.1.4
+Section: System
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 11.0), cy+cpu.arm64
+Replaces: org.coolstar.libhooker (<<1.2.5)
+Filename: ./pool/org.coolstar.safemode_1.1.4_iphoneos-arm64.deb
+Size: 528788
+MD5sum: 60611d319dffed6316a0d0c27c50277f
+SHA1: d4bad482e50143554f3de12fe4d5bc10fd10833d
+SHA256: 3678f3b8857cbf6ef65f662fe77b09ae7a41d1796f72685386205cbc2e2883c8
+SHA512: c996239ffb2c935d599398f3c6c5fa4966c3f8cb2b4dd1b01d24065c172a7866fe528810e8c08b267cfde9895482702859bd3f4fb8870d213f8a99ddcf86a3e2
+Description: Safe Mode app for libhooker
+Name: Safe Mode (libhooker)
+Author: CoolStar <coolstarorganization@gmail.com>
+
 Package: ploosh.debstealer
 Architecture: iphoneos-arm
 Version: 1.0.4
