@@ -22,7 +22,7 @@
 				},
 				{
 					"class": "DepictionTableTextView",
-					"text": "April 16, 2023",
+					"text": "April 21, 2023",
 					"title": "Updated"
 				},
 				{
@@ -36,6 +36,17 @@
 			"class": "DepictionStackView",
 			"tabname": "Changelog",
 			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "1.1.0",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Add rootless support & fix iOS 15+",
+					"useSpacing": true
+				}
 				{
 					"class": "DepictionSubheaderView",
 					"title": "1.0.0",

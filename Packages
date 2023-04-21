@@ -103,11 +103,11 @@ Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 11.0), cy+cpu.arm64
 Replaces: org.coolstar.libhooker (<<1.2.5)
 Filename: ./pool/org.coolstar.safemode_1.1.4_iphoneos-arm64.deb
-Size: 528788
-MD5sum: 60611d319dffed6316a0d0c27c50277f
-SHA1: d4bad482e50143554f3de12fe4d5bc10fd10833d
-SHA256: 3678f3b8857cbf6ef65f662fe77b09ae7a41d1796f72685386205cbc2e2883c8
-SHA512: c996239ffb2c935d599398f3c6c5fa4966c3f8cb2b4dd1b01d24065c172a7866fe528810e8c08b267cfde9895482702859bd3f4fb8870d213f8a99ddcf86a3e2
+Size: 528828
+MD5sum: f03e5e3cbca7845772ae6fa4313c01d3
+SHA1: 0d4a72ec438e4a3e7e614fbde04b3b16dcc3e824
+SHA256: 467298c2dba07edc2ca79cd533e0a00a8bd50949943a5da934e00876728f6e82
+SHA512: 646307d3968e28206d7a7dda48ce0ef39755fbb4b29c3d145b3531cca09652fe96287a80e6698267943ca0c753359223ed2a0e1e96986ee0cfa4fa27dca0e642
 Description: Safe Mode app for libhooker
 Name: Safe Mode (libhooker)
 Author: CoolStar <coolstarorganization@gmail.com>
