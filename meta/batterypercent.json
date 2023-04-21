@@ -1,0 +1,53 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.3",
+	"headerImage": "https://repo.ploosh.dev/assets/batterypercent-cover.png",
+	"tintColor": "#4caf50",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"tabname": "Details",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Enables the battery percentage in the icon that Apple hides from you.",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionHeaderView",
+					"title": "Information"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "April 10, 2023",
+					"title": "Updated"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"text": "Free Package",
+					"title": "License"
+				}
+			]
+		},
+		{
+			"class": "DepictionStackView",
+			"tabname": "Changelog",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"title": "1.0.0",
+					"useBoldText": true,
+					"useBottomMargin": false
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Initial release",
+					"useSpacing": true
+				}
+			]
+		}
+	]
+}
