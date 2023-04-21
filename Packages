@@ -30,6 +30,27 @@ Description: Enables the battery percentage in the icon that Apple hides from yo
 Author: Ploosh
 Name: BatteryPercent
 
+Package: org.coolstar.libhooker-oss
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: System
+Maintainer: Ploosh <me@ploosh.dev>
+Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0), org.coolstar.libhooker (= 1.7.0)
+Depends: firmware (>= 11.0), cy+cpu.arm64, org.coolstar.safemode
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode, org.coolstar.libhooker
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode, org.coolstar.libhooker
+Filename: ./pool/org.coolstar.libhooker-oss_1.0.0_iphoneos-arm.deb
+Size: 50952
+MD5sum: ba3add0b6ffc1c73c3ddb635cc4ded95
+SHA1: ccf1cc84b55fefa4253824541a9bb513a420e084
+SHA256: 5d0d16347fd252d27e75892adf83a7460bfe342f4b987c871704e6274e505b94
+SHA512: 791030057cd44736405feb120ea3fa7401bf1aee36534600fd24433b7560065f9af87a5bcb7c20165f1867ac4be4d854b857cc3569f5a6b3b1bd500ee51e4ac4
+Description: libhooker, open source edition.
+Name: libhooker-oss
+Author: CoolStar <coolstarorganization@gmail.com>
+Icon: https://repo.ploosh.dev/assets/libhooker-oss.png
+SileoDepiction: https://repo.ploosh.dev/meta/libhooker-oss.json
+
 Package: ploosh.debstealer
 Architecture: iphoneos-arm
 Version: 1.0.3-1
