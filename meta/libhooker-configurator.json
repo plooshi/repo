@@ -1,0 +1,150 @@
+{
+    "class": "DepictionTabView",
+    "minVersion": "0.3",
+    "headerImage": "https://repo.ploosh.dev/assets/libhooker-oss-cover.png",
+    "tintColor": "#2c17ff",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "Details",
+            "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Unlock the full configurability of Odyssey and libhooker with this utility!",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 12.8,
+                    "itemSize": "{160, 346}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://repo.theodyssey.dev/depictions/assets/org.coolstar.libhooker-screen1.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://repo.theodyssey.dev/depictions/assets/org.coolstar.libhooker-screen2.png"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "#### Configure libhooker to your needs with this utility!\n\nlibhooker has been built from the ground up to work properly with 64-bit ARM devices\n\n#### Features:\n\n1. Toggle libhooker on or off globally\n2. Toggle libhooker on or off in webpages\n3. Configure whether individual tweaks load globally or on a per-app / per-daemon level\n4. Initiate a respring or userspace reboot (userspace reboot requires Odyssey 1.2.3 beta or higher)\n5. Update Odyssey (requires Odyssey 1.2.3b5 or higher)",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Information"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "April 21, 2023",
+                    "title": "Updated"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "Free Package",
+                    "title": "License"
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.3.1",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Add rootless, libhooker-oss, and palera1n detection",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.3.0",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1. Add search bar to lists of Applications / Daemons (Thanks Amy)\n2. Fix typos\n3. Turkish and Vietnamese Translations",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.2.0",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1. Add support for iOS 12\n2. Use UIKit\n3. Fix typo with userspace reboot title\n4. Fix popover on iPad\n5. Improve support for iOS 13.0 - 13.3",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.1.1",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1. Add support for iOS 14",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.1.0",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1. Fix crashes on iOS 13.3 and lower\n2. Add localization support\n3. Add Tweak Compatibility settings",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.0.2",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1. Fix ldrestart / userspace reboot alert to be more accurate",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.0.1",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1. Fix issues with saving preferences\n2. Fix ldrestart / userspace reboot label depending on whether it's supported by the jailbreak",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.0.0",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Initial Public Beta Release!",
+                    "useSpacing": true
+                }
+            ]
+        }
+    ]
+}

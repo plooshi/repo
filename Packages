@@ -36,6 +36,44 @@ Name: BatteryPercent
 Icon: https://repo.ploosh.dev/assets/batterypercent.png
 SileoDepiction: https://repo.ploosh.dev/meta/batterypercent.json
 
+Package: dev.ploosh.libhooker-configurator
+Architecture: iphoneos-arm
+Version: 1.3.1
+Priority: required
+Section: Packaging
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: org.coolstar.libhooker (>=1.4.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), firmware (>= 12.0)
+Filename: ./pool/dev.ploosh.libhooker-configurator_1.3.1_iphoneos-arm.deb
+Size: 182856
+MD5sum: b04f9ed5cb81e36e3ae3fc82f7139574
+SHA1: 27347901eeab44656172396a5447bbf5ef763a28
+SHA256: 083c63f6d0fc06ff5faee191c051bb8586cd2bbf07bfc644fc2e0cc58706826f
+SHA512: 02a3ea7de2864135b7417cbb4129d0f00001adacb7b1722d366d51e1407c8c2f831b93385d9d47acb3225ae79dd7f699f22bedf44081bd367801f7d21d6fff4b
+Description: Configuration Utility for libhooker
+Icon: https://repo.ploosh.dev/assets/libhooker-oss.png
+SileoDepiction: https://repo.ploosh.dev/meta/libhooker-configurator.json
+Name: libhooker-configurator
+Author: CoolStar <coolstarorganization@gmail.com>
+
+Package: dev.ploosh.libhooker-configurator
+Architecture: iphoneos-arm64
+Version: 1.3.1
+Priority: required
+Section: Packaging
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: org.coolstar.libhooker (>=1.4.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), firmware (>= 12.0)
+Filename: ./pool/dev.ploosh.libhooker-configurator_1.3.1_iphoneos-arm64.deb
+Size: 207256
+MD5sum: 42cefcc8df1d3df4c869bd485833abc9
+SHA1: 66eadcf1ebd5d5579f05f42373588e709fcf178e
+SHA256: 169ad74424247266d80af23b8f39eee43d5f1ba84617b24375511be51aa93801
+SHA512: c29093271e825425c602cdd8143089e10caadacf53998cac42bdc50fa287bc661893ca1724211b275d28ca92a24749126d2d4d10d30c505dca0b92149a91cd2c
+Description: Configuration Utility for libhooker
+Icon: https://repo.ploosh.dev/assets/libhooker-oss.png
+SileoDepiction: https://repo.ploosh.dev/meta/libhooker-configurator.json
+Name: libhooker-configurator
+Author: CoolStar <coolstarorganization@gmail.com>
+
 Package: dev.ploosh.libhooker-oss
 Architecture: iphoneos-arm
 Version: 1.1.0
